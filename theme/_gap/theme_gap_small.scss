@@ -1,26 +1,14 @@
 /* модификатор на отступ между колонками и отступами в сетке */
-@import '../_breakpoint/theme_breakpoint_default.scss';
-
-:root {
-  /* Размеры отступа у контента */
-  --gap: $space-s;
-
-  /* Размеры отступов в колонках */
-  --col-gap-third: calc(var(--gap) * 0.33);
-  --col-gap-half: calc(var(--gap) * 0.5);
-  --col-gap-two-thirds: calc(var(--gap) * 0.66);
-  --col-gap-full: var(--gap);
-  --col-gap-2x: calc(var(--gap) * 2);
-  --col-gap-3x: calc(var(--gap) * 3);
-}
-
-
-:root {
-  --gap: $space-xxxl;
-}
-
-
+  
 @media screen and (max-width: $screen-m-max) {
-  :root {--gap: $space-m}
+  $gap: $space-m
 }
+
+@media screen and (min-width: $screen-m-max) {
+  $gap: $space-xxxl;
+}
+
+$col-gap-half: $gap * 0.5;
+$col-gap-two-thirds: $gap * 0.66;
+$col-gap-full: $gap;
 

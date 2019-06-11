@@ -19,6 +19,7 @@ $screen-task: 1144px;
 @media screen and (max-width: $screen-task) {
   .theme_breakpoint_default {
     display: flex;
+    flex-wrap: wrap;
   }
 
 }
