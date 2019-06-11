@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -13,8 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pavel-Chesnokov/yandex/issues"
-  },
-  "homepage": "https://github.com/Pavel-Chesnokov/yandex#readme"
+  "devDependencies": {
+    "webpack": "^4.33.0"
+  }
 }
