@@ -1,0 +1,7 @@
+@import '../_breakpoint/theme_breakpoint_default.scss';
+
+@media screen and(max-width: $screen-s-max) {
+.template-grid_s-columns_3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+}

@@ -1,0 +1,15 @@
+/* цветовая схема с ярким фоном фирменного цвета «Мегафона» и светлыми акцентными контролами. */
+
+/*  Цвета фонов блоков  */
+
+$color-bg-default: #1FA55D;
+;
+$color-bg-accent: #FFFFFF;
+$color-bg-border: #FFFFFF;
+
+/* Цвета состояний текста */
+
+$color-typo-primary: #FFFFFF;
+$color-typo-secondary: transparentize($color-typo-primary, 0.4);
+$color-typo-ghost: transparentize($color-typo-primary, 0.7);
+$color-link: #FFFFFF;
