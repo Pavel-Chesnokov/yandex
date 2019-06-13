@@ -12,3 +12,7 @@ $color-typo-primary: #FFFFFF;
 $color-typo-secondary: transparentize($color-typo-primary, 0.4); 
 $color-typo-ghost: transparentize($color-typo-primary, 0.7); 
 $color-link: #FFFFFF;
+
+.div {
+  color: $color-typo-ghost
+}

@@ -1,0 +1,8 @@
+  {
+  block: 'payment',
+  mix: { block: 'form_border_all'
+    },
+  content: {
+  elem: 'header'
+    }
+  }
