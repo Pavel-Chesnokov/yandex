@@ -1,0 +1,35 @@
+.pt-form_border_all {
+  border: 3px solid $color-bg-border;
+}
+
+/*  payment__header */
+
+.pt-form__item_space-v_l {
+  padding-top: $space-l;
+  padding-bottom: $space-l;
+}
+
+.pt-form__item_space-h_xl {
+  padding-left: $space-xl;
+  padding-right: $space-xl;
+}
+
+.pt-form__item_border_bottom {
+  border-bottom: 1px solid $color-bg-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+/*  payment__header */
+
+
+/* payment__content */
+
+.pt-form__item_space-v_xxxl {
+  padding-top: $space-xxxl;
+  padding-bottom: $space-xxxl;
+}
+
+
+/* payment__content */

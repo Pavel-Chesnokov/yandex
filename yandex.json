@@ -3,6 +3,7 @@
   mix: { block: 'form_border_all'
     },
   content: {
-  elem: 'header'
+  elem: 'header',
+  mix:  { elem: ['form__item_space-v_l' 'form__item_space-h_xl']}
     }
   }
